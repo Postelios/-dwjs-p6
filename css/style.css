@@ -5,6 +5,10 @@ body {
     margin: 0;
 }
 
+a {
+    text-align: center;
+    text-decoration: inherit;
+}
 
 header {
     display: flex;
@@ -47,4 +51,20 @@ h1 {
 .photographer_section article img {
     height: 200px;
     width: 200px;
+    clip-path: circle();
+    object-fit: cover;
+}
+
+.photographer_section article .localisation {
+    color: #901C1C;
+    margin-top: -25px;
+}
+
+.photographer_section article .citation {
+    margin-top: -10px;
+}
+
+.photographer_section article .tariff {
+    color: #525252;
+    margin-top: -10px;
 }
